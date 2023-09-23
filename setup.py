@@ -27,7 +27,7 @@ try:
 except (ValueError, UnicodeError, locale.Error):
     locale.setlocale(locale.LC_ALL, "en_US.UTF-8")
 
-NAME = "pyecharts-extras"
+NAME = "charts-extras"
 AUTHOR = "pyecharts dev team"
 VERSION = "0.0.5"
 EMAIL = "info@pyecharts.com"
