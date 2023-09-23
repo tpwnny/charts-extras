@@ -1,40 +1,5 @@
-================================================================================
-pyecharts-extras
-================================================================================
-
-.. image:: https://api.travis-ci.org/pyecharts/pyecharts-extras.svg
-   :target: http://travis-ci.org/pyecharts/pyecharts-extras
-
-.. image:: https://codecov.io/github/pyecharts/pyecharts-extras/coverage.png
-   :target: https://codecov.io/github/pyecharts/pyecharts-extras
-.. image:: https://badge.fury.io/py/pyecharts-extras.svg
-   :target: https://pypi.org/project/pyecharts-extras
-
-.. image:: https://pepy.tech/badge/pyecharts-extras/month
-   :target: https://pepy.tech/project/pyecharts-extras/month
-
-.. image:: https://img.shields.io/github/stars/pyecharts/pyecharts-extras.svg?style=social&maxAge=3600&label=Star
-    :target: https://github.com/pyecharts/pyecharts-extras/stargazers
-
-.. image:: https://img.shields.io/static/v1?label=continuous%20templating&message=%E6%A8%A1%E7%89%88%E6%9B%B4%E6%96%B0&color=blue&style=flat-square
-    :target: https://moban.readthedocs.io/en/latest/#at-scale-continous-templating-for-open-source-projects
-
-.. image:: https://img.shields.io/static/v1?label=coding%20style&message=black&color=black&style=flat-square
-    :target: https://github.com/psf/black
-
-.. image:: https://mybinder.org/badge_logo.svg
- :target: https://mybinder.org/v2/gh/pyecharts/pyecharts-extras/master?filepath=examples
 
 
-
-Latest version works with pyecharts 1.3.1+.
-
-Please launch the binder to get an interactive jupyter notebook running.
-
-1. Time Series Event
------------------------
-
-Usage of TimeYAxisDateXAxis:
 
 .. code-block:: python
 
@@ -73,21 +38,9 @@ Usage of TimeYAxisDateXAxis:
 
 
 
-Installation
-================================================================================
-
-
-You can install pyecharts-extras via pip:
-
-.. code-block:: bash
-
-    $ pip install pyecharts-extras
-
-
-or clone it and install it:
-
 .. code-block:: bash
 
     $ git clone https://github.com/pyecharts/pyecharts-extras.git
     $ cd pyecharts-extras
     $ python setup.py install
+    $ pip install pyecharts-extras
